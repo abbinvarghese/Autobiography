@@ -102,7 +102,7 @@
     
     _bouncesHorizontally = YES;
     
-    _panGestureEnabled = YES;
+    _panGestureEnabled = NO;
     _panFromEdge = YES;
     _panMinimumOpenThreshold = 60.0;
     
