@@ -7,7 +7,6 @@
 //
 
 #import "ABSlideViewController.h"
-#import "ABSlideTableCell.h"
 
 @interface ABSlideViewController ()
 
@@ -21,6 +20,7 @@
     [super viewDidLoad];
 //    [self.tableView registerClass:[ABSlideTableCell class] forCellReuseIdentifier:@"Cell"];
     [self initTableView];
+    [self layoutTableView];
     // Do any additional setup after loading the view.
 }
 
@@ -70,8 +70,7 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
         cell.backgroundColor = [UIColor clearColor];
-        cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:21];
-        cell.textLabel.textColor = [UIColor whiteColor];
+        cell.textLabel.textColor = [ABCommon randomColor];
         cell.textLabel.highlightedTextColor = [UIColor lightGrayColor];
         cell.selectedBackgroundView = [[UIView alloc] init];
     }
@@ -81,6 +80,16 @@
     cell.imageView.image = [UIImage imageNamed:@"Image"];
     
     return cell;
+}
+
+- (void)layoutTableView {
+    CGSize contentSize = self.tableView.contentSize;
+    CGSize boundsSize = self.tableView.bounds.size;
+    CGFloat yOffset = 0;
+    if(contentSize.height < boundsSize.height) {
+        yOffset = floorf((boundsSize.height - contentSize.height)/2);
+    }
+    self.tableView.contentOffset = CGPointMake(0, yOffset);
 }
 
 @end

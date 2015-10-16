@@ -27,7 +27,7 @@
 
 - (void)awakeFromNib
 {
-    self.backgroundImage = [UIImage imageNamed:@"0000126224_10.jpg"];
+    self.backgroundImage = [UIImage imageNamed:@"slideBackground.png"];
     self.contentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"contentViewController"];
     self.leftMenuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"slideViewController"];
 //    self.rightMenuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"rightMenuViewController"];

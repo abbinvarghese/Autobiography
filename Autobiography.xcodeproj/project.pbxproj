@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58037ECD1BD0DE74009FD575 /* slideBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 58037ECC1BD0DE74009FD575 /* slideBackground.png */; settings = {ASSET_TAGS = (); }; };
+		58037ED01BD0EC50009FD575 /* ABCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 58037ECF1BD0EC50009FD575 /* ABCommon.m */; settings = {ASSET_TAGS = (); }; };
 		58BEE0371BCFA67200B98FA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BEE0361BCFA67200B98FA2 /* main.m */; };
 		58BEE03A1BCFA67200B98FA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BEE0391BCFA67200B98FA2 /* AppDelegate.m */; };
 		58BEE03D1BCFA67200B98FA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BEE03C1BCFA67200B98FA2 /* ViewController.m */; };
@@ -20,9 +22,6 @@
 		58BEE07E1BCFAC4700B98FA2 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BEE07B1BCFAC4700B98FA2 /* UIViewController+RESideMenu.m */; settings = {ASSET_TAGS = (); }; };
 		58BEE0811BCFAC9200B98FA2 /* ABRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BEE0801BCFAC9200B98FA2 /* ABRootViewController.m */; settings = {ASSET_TAGS = (); }; };
 		58BEE0891BCFB16F00B98FA2 /* ABSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BEE0881BCFB16F00B98FA2 /* ABSlideViewController.m */; settings = {ASSET_TAGS = (); }; };
-		58BEE08D1BCFC9CC00B98FA2 /* 0000126224_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58BEE08C1BCFC9CC00B98FA2 /* 0000126224_10.jpg */; settings = {ASSET_TAGS = (); }; };
-		58BEE0921BCFD00600B98FA2 /* ABSlideTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BEE0901BCFD00600B98FA2 /* ABSlideTableCell.m */; settings = {ASSET_TAGS = (); }; };
-		58BEE0931BCFD00600B98FA2 /* ABSlideTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58BEE0911BCFD00600B98FA2 /* ABSlideTableCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58037ECC1BD0DE74009FD575 /* slideBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideBackground.png; sourceTree = "<group>"; };
+		58037ECE1BD0EC50009FD575 /* ABCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCommon.h; sourceTree = "<group>"; };
+		58037ECF1BD0EC50009FD575 /* ABCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCommon.m; sourceTree = "<group>"; };
+		58037ED21BD0EF70009FD575 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		58BEE0321BCFA67200B98FA2 /* Autobiography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autobiography.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BEE0361BCFA67200B98FA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58BEE0381BCFA67200B98FA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,10 +72,6 @@
 		58BEE0801BCFAC9200B98FA2 /* ABRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABRootViewController.m; sourceTree = "<group>"; };
 		58BEE0871BCFB16F00B98FA2 /* ABSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSlideViewController.h; sourceTree = "<group>"; };
 		58BEE0881BCFB16F00B98FA2 /* ABSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSlideViewController.m; sourceTree = "<group>"; };
-		58BEE08C1BCFC9CC00B98FA2 /* 0000126224_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0000126224_10.jpg; sourceTree = "<group>"; };
-		58BEE08F1BCFD00600B98FA2 /* ABSlideTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSlideTableCell.h; sourceTree = "<group>"; };
-		58BEE0901BCFD00600B98FA2 /* ABSlideTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSlideTableCell.m; sourceTree = "<group>"; };
-		58BEE0911BCFD00600B98FA2 /* ABSlideTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ABSlideTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +122,8 @@
 		58BEE0341BCFA67200B98FA2 /* Autobiography */ = {
 			isa = PBXGroup;
 			children = (
+				58037ECC1BD0DE74009FD575 /* slideBackground.png */,
 				58BEE08E1BCFCF9B00B98FA2 /* Custom */,
-				58BEE08C1BCFC9CC00B98FA2 /* 0000126224_10.jpg */,
 				58BEE0831BCFAEDB00B98FA2 /* ViewControllers */,
 				58BEE0751BCFABBB00B98FA2 /* RESideMenu */,
 				58BEE0381BCFA67200B98FA2 /* AppDelegate.h */,
@@ -142,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				58BEE0361BCFA67200B98FA2 /* main.m */,
+				58037ED21BD0EF70009FD575 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,9 +193,8 @@
 		58BEE08E1BCFCF9B00B98FA2 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
-				58BEE08F1BCFD00600B98FA2 /* ABSlideTableCell.h */,
-				58BEE0901BCFD00600B98FA2 /* ABSlideTableCell.m */,
-				58BEE0911BCFD00600B98FA2 /* ABSlideTableCell.xib */,
+				58037ECE1BD0EC50009FD575 /* ABCommon.h */,
+				58037ECF1BD0EC50009FD575 /* ABCommon.m */,
 			);
 			name = Custom;
 			sourceTree = "<group>";
@@ -304,10 +303,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				58BEE0451BCFA67200B98FA2 /* LaunchScreen.storyboard in Resources */,
-				58BEE08D1BCFC9CC00B98FA2 /* 0000126224_10.jpg in Resources */,
 				58BEE0421BCFA67200B98FA2 /* Assets.xcassets in Resources */,
-				58BEE0931BCFD00600B98FA2 /* ABSlideTableCell.xib in Resources */,
 				58BEE0401BCFA67200B98FA2 /* Main.storyboard in Resources */,
+				58037ECD1BD0DE74009FD575 /* slideBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,9 +332,9 @@
 			files = (
 				58BEE03D1BCFA67200B98FA2 /* ViewController.m in Sources */,
 				58BEE03A1BCFA67200B98FA2 /* AppDelegate.m in Sources */,
-				58BEE0921BCFD00600B98FA2 /* ABSlideTableCell.m in Sources */,
 				58BEE0371BCFA67200B98FA2 /* main.m in Sources */,
 				58BEE0811BCFAC9200B98FA2 /* ABRootViewController.m in Sources */,
+				58037ED01BD0EC50009FD575 /* ABCommon.m in Sources */,
 				58BEE07D1BCFAC4700B98FA2 /* RESideMenu.m in Sources */,
 				58BEE0891BCFB16F00B98FA2 /* ABSlideViewController.m in Sources */,
 				58BEE07C1BCFAC4700B98FA2 /* RECommonFunctions.m in Sources */,
@@ -412,8 +410,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Richard Cowley (R8PQ39G99Y)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Richard Cowley (R8PQ39G99Y)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Abbin Varghese (7NSQ6MWKUS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Abbin Varghese (7NSQ6MWKUS)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -432,10 +430,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "544b098c-c297-4956-8a6d-97930f1c803e";
+				PROVISIONING_PROFILE = "4cd75aed-26fc-4f2e-9114-1ff416faa2ab";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,8 +456,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Richard Cowley (7Y7C6K6PT5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Richard Cowley (7Y7C6K6PT5)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Abbin Varghese (76JA3GT3D5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Abbin Varghese (76JA3GT3D5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -472,9 +470,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "544b098c-c297-4956-8a6d-97930f1c803e";
+				PROVISIONING_PROFILE = "aecb7076-e2fb-4a4c-8769-bc34df7ccb99";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -485,12 +483,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Richard Cowley (R8PQ39G99Y)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Abbin Varghese (7NSQ6MWKUS)";
+				GCC_PREFIX_HEADER = Autobiography/PrefixHeader.pch;
 				INFOPLIST_FILE = Autobiography/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Paadam.Autobiography;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "544b098c-c297-4956-8a6d-97930f1c803e";
+				PROVISIONING_PROFILE = "4cd75aed-26fc-4f2e-9114-1ff416faa2ab";
 			};
 			name = Debug;
 		};
@@ -498,12 +497,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Richard Cowley (7Y7C6K6PT5)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Abbin Varghese (76JA3GT3D5)";
+				GCC_PREFIX_HEADER = Autobiography/PrefixHeader.pch;
 				INFOPLIST_FILE = Autobiography/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Paadam.Autobiography;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "544b098c-c297-4956-8a6d-97930f1c803e";
+				PROVISIONING_PROFILE = "aecb7076-e2fb-4a4c-8769-bc34df7ccb99";
 			};
 			name = Release;
 		};
